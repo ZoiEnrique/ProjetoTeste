@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Portifólio</title>
+    <style>
+        @font-face {
+            font-family: 'BB';
+            src: url('Heart Breaking Bad.otf') format('opentype');
+        }
+        body{
+            margin-left: 5%;
+            margin-right: 5%;
+            background-color: rgb(20, 82, 10);
+        }
+        .container{ 
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+        }
+        #header{          
+            font-family: 'BB';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 80px;
+            line-height: 90px;
+            margin-bottom: 20px;
+            text-align: left;
+           
+            color: rgb(255, 255, 255);
+            margin-left: 5%;
+            margin-top: 40px;
+            margin-bottom: -5px;
+            text-align: left;
+        }
+        #menu{
+            text-align: right;
+        }
+        #menu ul{          
+            font-family: 'BB';
+            font-size: 30px;
+            list-style-type:none;
+            margin:0;
+            margin-right: 5px;
+            padding:0;
+        }
+        #menu li{
+            display:inline-block;
+            margin-left:20px;
+            margin-top: 65px;
+            text-align: right;
+        }
+        a{
+            color: rgb(255, 255, 255);
+           text-decoration: none;
+        }
+        #buttonCta{
+        background: rgb(14, 51, 8);
+        border-radius: 50px;
+        font-family: 'BB';
+        font-style: normal;
+        font-weight: 50;
+        font-size: 30px;
+        width: 180px;
+        height: 48px;
+        left: 160px;
+        top: 390px;
+        
+        padding: 10px 25px;
+        text-align: center ;
+        }
+        #headerCta h1 {
+            background-color: rgb(20, 82, 10);
+            font-family: 'BB';
+            font-weight: 50;
+            font-size: 50px;
+            margin-bottom: 0%;
+        }
+        #headerCta{
+            color: rgb(255, 255, 255);
+            margin-left: 30px;
+        }
+        #headerCta p{
+            font-weight: 30px;
+            font-size: 30px;
+        }
+        #headerImg{
+            margin-left: 42px;
+        }
+        #headerImg img{        
+            width: 100%;
+        }
+        .headerLogo img{
+            text-align: center;
+            max-width:250px;
+            max-height:150px;
+            width: auto;
+            height: auto;
+        }
+        #clients{
+            border-radius: 50px;
+            color: rgb(255, 255, 255);
+            font-family: poppins;
+            font-style: normal;
+            margin-left: 50px;
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
+        #headerClientText{
+            font-size: 80px;
+            font-weight: 100px;
+            margin-top: 200px;
+        }
+        h2.red{
+           
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 24px;
+            text-align: center;
+
+            color: rgb(255, 255, 255);
+        }
+       h1.black{
+        margin-top: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+
+        color: rgb(255, 255, 255);
+       }
+       .textCenter img{
+        text-align: center;
+        margin-left: 50px;
+        max-width:250px;
+        max-height:150px;
+       }
+       .container h3{
+        text-align: center;
+        
+       }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            PortiFolio
+        </div>
+        <div id="menu">
+        <ul>
+            <li><a href="#services">Meus servicos</a></li>
+            <li><a href="contact">Contato</a></li>
+            <li><a href="">Portifolio</a><li>
+        </ul>
+    </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>Ola meu nome e<br> 
+                Walter Hartwell White
+            </h1>
+            <p>
+                Meu nome é Walter White e produzo doces azuis a 10 anos.<br>
+                  Produzo os melhores produtos do Alabama.
+                  
+            </p>
+            <a id="buttonCta" href="">meus servicos</a>
+        </div>
+    <div id="headerImg">
+        <img src="img/whatsapp-image-2018-03-21-at-11-28-52-1.jpeg">
+    </div>
+    </div>
+    <div class="container" id="clients">
+        <div class="headerClientText">
+            Alguns  dos<br>
+            meus clientes
+        </div>
+        <div class="headerLogo">
+            <img src="img/gus.jpeg">
+        </div>
+        <div class="headerLogo">
+            <img src="img/friend.jpeg">
+        </div>
+        <div class="headerLogo">
+            <img src="img/tuco.jpeg">
+        </div>
+    </div>
+    <div class="container">
+        <div id="services">
+            <h2 class="red">Conheça</h2>
+        <h1 class="black">Meus servicos</h1>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="textCenter">
+            <img src="img/droga-metanfetamina-exame-toxicologico.jpg">
+            <h3>Bala Azul</h3>
+        </div>
+        <div class="textCenter">
+        <img src="img/pirulito.jpeg">
+        <h3>Pirulitos</h3>
+        </div>
+        <div class="textCenter">
+            <img src="img/coock.jpeg">
+            <h3>Cozinheiro Profissional</h3>
+        </div>
+    </div>
+</body>
+</html>
